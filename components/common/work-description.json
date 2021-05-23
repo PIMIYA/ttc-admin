@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_common_work_descriptions",
+  "info": {
+    "name": "work-description",
+    "icon": "file-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "desctiption": {
+      "type": "richtext"
+    },
+    "urls": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.url"
+    }
+  }
+}
