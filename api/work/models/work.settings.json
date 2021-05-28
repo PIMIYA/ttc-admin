@@ -46,6 +46,15 @@
     "order": {
       "type": "integer",
       "default": 0
+    },
+    "title_en": {
+      "type": "string"
+    },
+    "subtitle_en": {
+      "type": "string"
+    },
+    "year": {
+      "type": "integer"
     }
   }
 }

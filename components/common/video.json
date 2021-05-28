@@ -2,19 +2,20 @@
   "collectionName": "components_common_videos",
   "info": {
     "name": "video",
-    "icon": "photo-video"
+    "icon": "photo-video",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "link": {
       "type": "string"
     },
-    "description": {
-      "type": "text"
-    },
     "order": {
       "type": "integer",
       "default": 0
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
