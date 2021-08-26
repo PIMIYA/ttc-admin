@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "front_page_videos",
   "info": {
-    "name": "FrontPageVideo"
+    "name": "FrontPageVideo",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,29 +12,9 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Desktop": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
-    "Mobile": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
+    "VideoUrl": {
+      "type": "string",
+      "default": "https://player.vimeo.com/video/568021273?background=1"
     }
   }
 }
